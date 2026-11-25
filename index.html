@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nuvola Frontale - Video Player</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="importmap">
+        {
+            "imports": {
+                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
+            }
+        }
+    </script>
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <canvas id="bg-canvas"></canvas>
+
+    <div class="diffusion-layer"></div>
+
+    <div class="video-player">
+        <div class="player-wrapper">
+            <div class="video-view">
+                <video id="main-video" controls preload="metadata" poster="">
+                    Il tuo browser non supporta l'elemento video.
+                </video>
+            </div>
+
+            <aside class="video-list">
+                <h2>Scegli un video</h2>
+                <ul id="video-list"></ul>
+            </aside>
+        </div>
+
+    </div>
+</body>
+</html>

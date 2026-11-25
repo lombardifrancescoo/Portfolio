@@ -7,9 +7,8 @@ import { UnrealBloomPass } from 'three/addons/postprocessing/UnrealBloomPass.js'
 // VIDEO PLAYER
 // ============================================================================
 const videos = [
-    { name: 'fm-grid', src: 'vid/fm-grid.webm' },
-    { name: 'la-nuit', src: 'vid/la-nuit.webm' },
-    { name: 'smoke-and-mirrors', src: 'vid/smoke-and-mirrors.webm' },
+    { name: 'la nuit', src: 'vid/la nuit.webm' },
+    { name: 'smoke_and_mirrors', src: 'vid/smoke_and_mirrors.webm' },
 ];
 
 const videoEl = document.getElementById('main-video');

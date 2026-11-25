@@ -71,7 +71,6 @@ video {
     height: auto;
     background: #000;
     border-radius: 8px;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 /* Elenco video */
